@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="arrow-left">
+            <g id="Group">
+                <rect id="Rectangle" fill="#000000" x="0" y="0" width="200" height="200"></rect>
+                <path d="M110.474229,89.8511593 L110.528687,89.7967016 L70.7319853,50 L60.6248865,60.1070988 L99.84026,99.3224724 L60,139.162732 L70.1070988,149.269831 L120,99.3769301 L110.474229,89.8511593 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(90.000000, 99.634916) scale(-1, 1) translate(-90.000000, -99.634916) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

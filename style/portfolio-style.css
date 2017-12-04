@@ -1,0 +1,75 @@
+body {
+ 	padding-top: 5rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.project-container {
+	margin-top: 1em;
+ 	padding: 2.2rem 1.5rem;
+ 	text-align: left;
+  	background-color: #FFFFFF;
+  	
+  	border-style: solid;
+  	border-width: 1px;
+  	border-color: #AAAAAA;
+  	border-radius: .1em;
+}
+
+.tag-container {
+	padding: 0.9rem 0rem;
+	background-color: #FFFFFF;
+}
+
+.badge {
+    display: inline-block;
+    padding: .5em;
+    font-size: 75%;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    color: #FFFFFF;
+}
+
+.badge-tag {
+	background-color: #111111;
+}
+
+.badge-tool {
+	background-color: #AABBBB;
+}
+
+.project-slide {
+	/*width: 100%;*/
+	max-height: 400px;
+	margin: 0 auto;
+}
+
+/*.project-container .carousel {
+	background-color: #AAAAAA;
+}*/
+
+.project-container .carousel-control-next-icon {
+	background-image: url("../img/ui/arrow-right.svg");
+	width: 40px;
+	height: 40px;
+}
+
+.project-container .carousel-control-prev-icon {
+	background-image: url("../img/ui/arrow-left.svg");
+	width: 40px;
+	height: 40px;
+}
+
+.project-video-container {
+	width: 711px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+/*.project-video-container video {
+	margin: 0 auto;
+}*/
+
