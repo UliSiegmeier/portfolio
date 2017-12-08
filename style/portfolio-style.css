@@ -1,6 +1,6 @@
 body {
  	padding-top: 4rem;
-	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 	background-color: #fafafa;
 }
 
@@ -17,7 +17,7 @@ body {
 } 
 
 .navbar-brand {
-	/*font-family: 'Roboto Slab', sans-serif;*/
+	font-family: 'Roboto Slab', sans-serif;
 	font-size: 150%;
     font-weight: 500;
  	padding: 0rem 1.5rem 0rem .1rem;
@@ -28,7 +28,7 @@ body {
 }
 
 .nav-link {
-	/*font-family: 'Roboto',sans-serif;*/
+	font-family: 'Roboto',sans-serif;
 	font-size: 100%;
     font-weight: 400;
     /*padding: .7rem 1rem .5rem 1rem;*/
@@ -45,7 +45,7 @@ body {
 }
 
 .project-container {
-	max-width: 850px;
+	max-width: 866px;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -61,8 +61,12 @@ body {
 }
 
 .project-container h1 {
-	/*font-family: 'Roboto Slab', sans-serif;*/
+	font-family: 'Roboto Slab', sans-serif;
 }
+
+.project-container .carousel {
+	background-color: #626B75;
+}	
 
 .project-description {
 	max-width: 35em;
