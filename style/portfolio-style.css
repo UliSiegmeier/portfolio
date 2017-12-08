@@ -1,30 +1,86 @@
 body {
- 	padding-top: 5rem;
-	font-family: 'Roboto', sans-serif;
+ 	padding-top: 4rem;
+	/*font-family: 'Roboto', sans-serif;*/
+	background-color: #fafafa;
+}
+
+.bg-dark {
+    background-color: #333A41 !important;
+}
+
+.navbar {
+	padding: 0rem 1rem;
+}
+
+.navbar nav {
+	padding: 0;
+} 
+
+.navbar-brand {
+	/*font-family: 'Roboto Slab', sans-serif;*/
+	font-size: 150%;
+    font-weight: 500;
+ 	padding: 0rem 1.5rem 0rem .1rem;
+}
+
+.nav-item {
+	margin: 0 .7rem;
+}
+
+.nav-link {
+	/*font-family: 'Roboto',sans-serif;*/
+	font-size: 100%;
+    font-weight: 400;
+    /*padding: .7rem 1rem .5rem 1rem;*/
+    padding: 0.7rem 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+	color: #F8FF51;
+	border-width: 0 0 0.2rem 0;
+	border-style: solid;
+	border-color: #F8FF51;
+	/*margin-top: 0.2rem;*/
 }
 
 .project-container {
+	max-width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+
 	margin-top: 1em;
- 	padding: 2.2rem 1.5rem;
+ 	padding: 1.5rem 2rem 2rem 2rem;
  	text-align: left;
   	background-color: #FFFFFF;
   	
   	border-style: solid;
   	border-width: 1px;
-  	border-color: #AAAAAA;
+  	border-color: #E3E3E3;
   	border-radius: .1em;
 }
 
+.project-container h1 {
+	/*font-family: 'Roboto Slab', sans-serif;*/
+}
+
+.project-description {
+	max-width: 35em;
+}
+
 .tag-container {
+	line-height: 180%;
+	margin: 0;
+
 	padding: 0.9rem 0rem;
 	background-color: #FFFFFF;
 }
 
 .badge {
     display: inline-block;
-    padding: .5em;
+    padding: .5em .7em;
     font-size: 75%;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1;
     text-align: center;
     white-space: nowrap;
@@ -34,11 +90,11 @@ body {
 }
 
 .badge-tag {
-	background-color: #111111;
+	background-color: #626B75;
 }
 
 .badge-tool {
-	background-color: #AABBBB;
+	background-color: #A2B3C5;
 }
 
 .project-slide {
@@ -50,6 +106,20 @@ body {
 /*.project-container .carousel {
 	background-color: #AAAAAA;
 }*/
+
+.project-container .carousel {
+	margin-top: 1em;
+}
+
+.carousel-control-prev {
+	width: 10%;
+	justify-content: left;
+}
+
+.carousel-control-next {
+	width: 10%;
+	justify-content: right;
+}
 
 .project-container .carousel-control-next-icon {
 	background-image: url("../img/ui/arrow-right.svg");
@@ -68,6 +138,23 @@ body {
 	height: 400px;
 	margin: 0 auto;
 }
+
+.carousel-caption {
+	bottom: 5%;
+	right: 5%;
+	left: 5%;
+	/*background-color: #292D31CC;*/
+	padding: 0;
+	margin: 0;
+}
+
+.carousel-caption span {
+	margin: 0;
+	background-color: #292D31CC;
+	padding: .5rem .7rem;
+	margin: 0;
+}
+
 
 /*.project-video-container video {
 	margin: 0 auto;
