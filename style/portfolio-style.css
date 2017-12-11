@@ -2,7 +2,7 @@ body {
  	padding-top: 4rem;
  	padding-bottom: 3em;
 	font-family: 'Roboto', sans-serif;
-	background-color: #fafafa;
+	background-color: #f4f4f7;
 }
 
 .bg-dark {
@@ -63,6 +63,7 @@ body {
 
 .project-container h1 {
 	font-family: 'Roboto Slab', sans-serif;
+	color:#333A41;
 }
 
 .project-container .carousel {
@@ -145,7 +146,7 @@ body {
 }
 
 .carousel-caption {
-	bottom: 5%;
+	bottom: 4%;
 	right: 5%;
 	left: 5%;
 	/*background-color: #292D31CC;*/
