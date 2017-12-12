@@ -1,30 +1,16 @@
-
-:root {
-    --color-accent: #F8FF51;
-
-    --color-neutral-dark: #414141;
-    --color-neutral-medium: #666666;
-    --color-neutral-light: #929292;
-    --color-neutral-ultralight: #f5f5f5;
-
-    --color-text-light: #ffffff;
-    --color-text-dark: #000000;
-
-    --carousel-border-radius: .1em; 
-}
-
-
 body {
  	padding-top: 4rem;
  	padding-bottom: 3em;
 	font-family: 'Roboto', sans-serif;
-	background-color: var(--color-neutral-ultralight);
+	background-color: #f4f4f7;
+}
+
+.bg-dark {
+    background-color: #333A41 !important;
 }
 
 .navbar {
 	padding: 0rem 1rem;
-	color: var(--color-text-light) !important;
-    background-color: var(--color-neutral-dark) !important;
 }
 
 .navbar nav {
@@ -36,8 +22,6 @@ body {
 	font-size: 150%;
     font-weight: 500;
  	padding: 0rem 1.5rem 0rem .1rem;
- 	color: var(--color-text-light) !important;
-    background-color: var(--color-neutral-dark) !important;
 }
 
 .nav-item {
@@ -51,14 +35,13 @@ body {
     /*padding: .7rem 1rem .5rem 1rem;*/
     padding: 0.7rem 0.5rem;
     margin-top: 0.2rem;
-    color: var(--color-text-dark);
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+	color: #F8FF51;
 	border-width: 0 0 0.2rem 0;
 	border-style: solid;
-	color: var(--color-accent);
-	border-color: var(--color-accent);
+	border-color: #F8FF51;
 	/*margin-top: 0.2rem;*/
 }
 
@@ -70,23 +53,21 @@ body {
 	margin-top: 1em;
  	padding: 1.5rem 2rem 2rem 2rem;
  	text-align: left;
-  	background-color: #ffffff;
+  	background-color: #FFFFFF;
   	
   	border-style: solid;
   	border-width: 1px;
-  	border-radius: .3em;
-  	border-color: var(--color-neutral-ultralight);
+  	border-color: #E3E3E3;
+  	border-radius: .1em;
 }
 
 .project-container h1 {
 	font-family: 'Roboto Slab', sans-serif;
-	color: var(--color-text-dark);
+	color:#333A41;
 }
 
 .project-container .carousel {
-	margin-top: 2.2em;
-	background-color: var(--color-neutral-light);
-	border-radius: var(--carousel-border-radius);
+	background-color: #626B75;
 }	
 
 .project-description {
@@ -115,44 +96,45 @@ body {
 }
 
 .badge-tag {
-	background-color: var(--color-neutral-medium);
+	background-color: #626B75;
 }
 
 .badge-tool {
-	background-color: var(--color-neutral-light);
+	background-color: #A2B3C5;
 }
 
 .project-slide {
 	/*width: 100%;*/
 	max-height: 400px;
 	margin: 0 auto;
-
-	border-radius: var(--carousel-border-radius);
 }
 
-.carousel-control-prev, .carousel-control-next {
-	width: 10%;
-	top: 89% !important;
-	bottom:4% !important;
-	opacity: 1 !important;
-} 
-	
+/*.project-container .carousel {
+	background-color: #AAAAAA;
+}*/
+
+.project-container .carousel {
+	margin-top: 1em;
+}
+
 .carousel-control-prev {
+	width: 10%;
 	justify-content: left;
 }
 
 .carousel-control-next {
+	width: 10%;
 	justify-content: right;
 }
 
 .project-container .carousel-control-next-icon {
-	background-image: url("../img/ui/arrow-yellow-right.svg");
+	background-image: url("../img/ui/arrow-right.svg");
 	width: 40px;
 	height: 40px;
 }
 
 .project-container .carousel-control-prev-icon {
-	background-image: url("../img/ui/arrow-yellow-left.svg");
+	background-image: url("../img/ui/arrow-left.svg");
 	width: 40px;
 	height: 40px;
 }
@@ -167,17 +149,16 @@ body {
 	bottom: 4%;
 	right: 5%;
 	left: 5%;
+	/*background-color: #292D31CC;*/
 	padding: 0;
 	margin: 0;
 }
 
 .carousel-caption span {
-	font-family: 'Roboto Slab', sans-serif;
 	margin: 0;
+	background-color: #292D31CC;
 	padding: .5rem .7rem;
 	margin: 0;
-	color: var(--color-text-dark);
-	background-color: var(--color-accent);
 }
 
 
