@@ -164,7 +164,7 @@ body {
 }
 
 .carousel-caption {
-	bottom: 4%;
+	bottom: 4.2%;
 	right: 5%;
 	left: 5%;
 	padding: 0;
@@ -174,7 +174,7 @@ body {
 .carousel-caption span {
 	font-family: 'Roboto Slab', sans-serif;
 	margin: 0;
-	padding: .5rem .7rem;
+	padding: .56rem .7rem;
 	margin: 0;
 	color: var(--color-text-dark);
 	background-color: var(--color-accent);
