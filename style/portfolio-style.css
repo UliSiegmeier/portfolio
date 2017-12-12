@@ -74,7 +74,7 @@ body {
   	
   	border-style: solid;
   	border-width: 1px;
-  	border-radius: .3em;
+  	border-radius: .4em;
   	border-color: var(--color-neutral-ultralight);
 }
 
@@ -179,6 +179,35 @@ body {
 	color: var(--color-text-dark);
 	background-color: var(--color-accent);
 }
+
+p a {
+	color: var(--color-text-dark);
+	background-color: var(--color-accent);
+	padding: 0 .2em;
+}
+
+p a:hover {
+	color: var(--color-text-dark);
+	text-decoration: underline;
+}
+
+a.download-link {
+	font-family: 'Roboto Slab', sans-serif;
+	margin: 1em 0;
+	padding: .56rem .7rem;
+	color: var(--color-text-dark);
+	background-color: var(--color-accent);
+}
+
+a.download-link:hover {
+	text-decoration: underline;
+	color: var(--color-text-dark);
+/*	text-decoration: none;
+	color: var(--color-text-dark);
+	border-width: 0;
+	border-style: solid;
+	border-bottom-width: 2px;*/
+} 
 
 
 /*.project-video-container video {
