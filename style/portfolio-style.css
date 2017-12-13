@@ -173,7 +173,7 @@ body {
 	margin: 0;
 }
 
-.carousel-caption span {
+.carousel-caption span, .carousel-caption a {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 0.9rem;
 	margin: 0;
@@ -181,6 +181,10 @@ body {
 	margin: 0;
 	color: var(--color-text-dark);
 	background-color: var(--color-accent);
+}
+
+.carousel-caption a:hover {
+	text-decoration: none;
 }
 
 p a {
